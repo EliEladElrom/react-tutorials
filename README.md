@@ -8,4 +8,5 @@ If you struggle with React / React related libraries or have a burning question 
 Table of content
 ----------------
 
+* hello-react - https://medium.com/react-courses/follow-this-tutorial-and-become-a-react-developer-in-5-minutes-a-2020-tutorial-e3709513b51e
 * hello-redux - https://medium.com/react-courses/instance-learn-react-redux-4-redux-toolkit-in-minutes-a-2020-reactjs-16-tutorial-9adaec6f2836
