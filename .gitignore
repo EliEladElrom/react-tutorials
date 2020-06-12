@@ -1,6 +1,9 @@
 # misc
 .DS_Store
 
+# IDE
+.idea
+
 # dependencies
 /node_modules
 
