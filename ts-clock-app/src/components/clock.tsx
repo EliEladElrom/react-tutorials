@@ -35,7 +35,7 @@ export default class Clock extends React.Component<Props, ClockState> {
         });
     }
 
-    // Before the component mounts, initialise the state
+    // Before the component mounts, initialize the state
     componentWillMount() {
         this.handleAClockTickBySettingTheState();
     }
