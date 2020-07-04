@@ -1,0 +1,31 @@
+.clock-face {
+  display: flex;
+  flex-direction: column;
+}
+.clock .clock-face {
+  width: 250px;
+  height: 250px;
+  border: solid 2px lightslategrey;
+  border-radius: 50%;
+  position: relative;
+  background: white;
+}
+.clock .clock-face .dial {
+  position: absolute;
+  left: 50%;
+  width: 125px;
+  height: 125px;
+  transform-origin: bottom left;
+}
+.clock .clock-face .dial.seconds {
+  border-left: solid 1px dimgrey;
+}
+.clock .clock-face .dial.minutes {
+  border-left: solid 2px dimgrey;
+}
+.clock .clock-face .dial.hours {
+  width: 88px;
+  height: 88px;
+  top: 38px;
+  border-left: solid 3px dimgrey;
+}
