@@ -1,0 +1,16 @@
+.row-left {
+  width: 20%;
+  float: left;
+}
+
+.row-right {
+  width: 80%;
+  float:right;
+}
+
+.button {
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: grey;
+}
