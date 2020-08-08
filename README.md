@@ -11,6 +11,7 @@ Table of content
 ----------------
 
 * hello-react - https://medium.com/react-courses/follow-this-tutorial-and-become-a-react-developer-in-5-minutes-a-2020-tutorial-e3709513b51e
+* starter-project - https://medium.com/react-courses/setting-up-professional-react-project-with-must-have-reactjs-libraries-2020-9358edf9acb3
 * hello-redux - https://medium.com/react-courses/instance-learn-react-redux-4-redux-toolkit-in-minutes-a-2020-reactjs-16-tutorial-9adaec6f2836
 * react-redux-cart - https://medium.com/react-courses/instant-learn-react-redux-toolkit-with-a-simple-minimalistic-example-3c63c296ed65
 * hello-jest-enzyme - https://medium.com/@elad.ny/are-you-not-testing-your-react-app-instantly-test-with-jest-enzyme-a-reactjs-2020-tutorial-e9ce0182d66d
