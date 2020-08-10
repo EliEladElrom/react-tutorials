@@ -2,7 +2,7 @@
 Author: Eli Elad Elrom
 Website: https://EliElrom.com
 License: MIT License
-Component: TemplateName.tsx
+Component: templates/TemplateName/TemplateName.tsx
 */
 
 import React from 'react';
@@ -16,15 +16,6 @@ export default class TemplateName extends React.Component<ITemplateNameProps, IT
         this.state = {
             name: this.props.history.location.pathname.substring(1, this.props.history.location.pathname.length)
         }
-    }
-    componentWillMount() {
-        // TODO
-    }
-    componentDidUpdate() {
-        // TODO
-    }
-    componentWillUpdate() {
-        // TODO
     }
     render() {
         return (
