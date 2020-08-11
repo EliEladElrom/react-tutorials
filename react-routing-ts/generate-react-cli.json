@@ -18,16 +18,21 @@
         "test": "templates/component/test.js"
       },
       "path": "src/pages",
-      "withLazy": true,
+      "withLazy": false,
       "withStory": false,
       "withStyle": true,
       "withTest": true
     },
     "layout": {
+      "customTemplates": {
+        "component": "templates/component/component.js",
+        "style": "templates/component/style.scss",
+        "test": "templates/component/test.js"
+      },
       "path": "src/layout",
       "withLazy": false,
       "withStory": false,
-      "withStyle": false,
+      "withStyle": true,
       "withTest": true
     }
   }

@@ -64,6 +64,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8",
+    "fontsource-open-sans": "^3.0.3",
     "node-sass": "^4.14.1",
     "prettier-eslint": "^11.0.0",
     "prettier-eslint-cli": "^5.0.0",

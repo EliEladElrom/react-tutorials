@@ -18,3 +18,4 @@ Table of content
 * ts-clock-app - https://medium.com/react-courses/instant-write-reactjs-typescript-components-complete-beginners-guide-with-a-cheatsheet-e32a76022a44
 * hello-preprocessors - https://medium.com/master-angular/ready-to-integrate-or-switch-css-preprocessors-on-react-project-sass-scss-vs-postcss-vs-less-vs-58bf26c379ab
 * material-ui-ts - https://medium.com/react-courses/speed-up-development-integrate-material-ui-v4-11-0-df7968a43fb6
+* react-routing-ts - https://medium.com/react-courses/how-to-integrate-routing-in-typescript-project-with-react-router-v5-2-0-a6b0ab160a1b

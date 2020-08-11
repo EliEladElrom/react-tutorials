@@ -18,7 +18,7 @@
         "test": "templates/component/test.js"
       },
       "path": "src/pages",
-      "withLazy": true,
+      "withLazy": false,
       "withStory": false,
       "withStyle": true,
       "withTest": true
@@ -30,7 +30,7 @@
         "test": "templates/component/test.js"
       },
       "path": "src/layout",
-      "withLazy": true,
+      "withLazy": false,
       "withStory": false,
       "withStyle": true,
       "withTest": true

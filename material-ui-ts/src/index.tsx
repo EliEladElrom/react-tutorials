@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
+import './index.scss'
 import Header from './layout/Header/Header'
 import * as serviceWorker from './serviceWorker'
 

@@ -2,16 +2,16 @@
 Author: Eli Elad Elrom
 Website: https://EliElrom.com
 License: MIT License
-Component: TemplateName.tsx
+Component: NotFoundPage.tsx
 */
 
 import React from 'react';
-import './TemplateName.scss';
+import './NotFoundPage.scss';
 import { RouteComponentProps } from 'react-router-dom'
 
-export default class TemplateName extends React.Component<ITemplateNameProps, ITemplateNameState> {
+export default class NotFoundPage extends React.Component<INotFoundPageProps, INotFoundPageState> {
 
-  constructor(props: ITemplateNameProps) {
+  constructor(props: INotFoundPageProps) {
     super(props);
     this.state = {
       name: this.props.history.location.pathname.substring(1, this.props.history.location.pathname.length)
@@ -28,16 +28,16 @@ export default class TemplateName extends React.Component<ITemplateNameProps, IT
   }
   render() {
     return (
-      <div className="TemplateName">
+      <div className="NotFoundPage">
         {this.state.name} Component
       </div>);
   }
 }
 
-interface ITemplateNameProps extends RouteComponentProps<{ name: string }> {
+interface INotFoundPageProps extends RouteComponentProps<{ name: string }> {
   // TODO
 }
 
-interface ITemplateNameState {
+interface INotFoundPageState {
   name: string
 }

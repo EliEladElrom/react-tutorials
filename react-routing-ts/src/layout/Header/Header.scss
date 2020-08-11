@@ -1,0 +1,19 @@
+.Header {
+}
+
+.heading {
+}
+
+.subheading {
+  font-weight: 300;
+}
+
+.NavLinkItem {
+  color: black;
+  max-width: 360px;
+  text-decoration: none;
+}
+
+.NavLinkItem-selected nav {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}

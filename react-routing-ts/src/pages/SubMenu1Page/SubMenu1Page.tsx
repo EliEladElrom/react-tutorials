@@ -2,16 +2,16 @@
 Author: Eli Elad Elrom
 Website: https://EliElrom.com
 License: MIT License
-Component: TemplateName.tsx
+Component: SubMenu1Page.tsx
 */
 
 import React from 'react';
-import './TemplateName.scss';
+import './SubMenu1Page.scss';
 import { RouteComponentProps } from 'react-router-dom'
 
-export default class TemplateName extends React.Component<ITemplateNameProps, ITemplateNameState> {
+export default class SubMenu1Page extends React.Component<ISubMenu1PageProps, ISubMenu1PageState> {
 
-  constructor(props: ITemplateNameProps) {
+  constructor(props: ISubMenu1PageProps) {
     super(props);
     this.state = {
       name: this.props.history.location.pathname.substring(1, this.props.history.location.pathname.length)
@@ -28,16 +28,16 @@ export default class TemplateName extends React.Component<ITemplateNameProps, IT
   }
   render() {
     return (
-      <div className="TemplateName">
+      <div className="SubMenu1Page">
         {this.state.name} Component
       </div>);
   }
 }
 
-interface ITemplateNameProps extends RouteComponentProps<{ name: string }> {
+interface ISubMenu1PageProps extends RouteComponentProps<{ name: string }> {
   // TODO
 }
 
-interface ITemplateNameState {
+interface ISubMenu1PageState {
   name: string
 }
