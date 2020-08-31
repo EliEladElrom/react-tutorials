@@ -1,7 +1,9 @@
 # react-tutorials
 
-Hello and welcome. For your convenience, in this library I included a list of the projects I created in the tutorials and courses to help you master React as well as ReactJS related libraries. I encourage you to create the projects yourself and just use this as a reference.  As John Dewey said we learn by doing:
-> “We do not learn from experience... we learn from reflecting on experience.” 
+Hello and welcome. For your convenience, in this library I included a list of the projects I created in the tutorials and courses to help you master React as well as ReactJS related libraries. I encourage you to create the projects yourself and just use this as a reference.
+Many think that learning is the accumulation of knowledge, however it’s probably the opposite.  Learning is changing our hobbits.  As Leo Buscaglia nicely put it:
+
+> “Change is the end result of all true learning.” 
 
 If you mastering Angular, I invite you to checkout my angular-tutorials: https://github.com/EliEladElrom/angular-tutorials.
 
@@ -19,3 +21,5 @@ Table of content
 * hello-preprocessors - https://medium.com/master-angular/ready-to-integrate-or-switch-css-preprocessors-on-react-project-sass-scss-vs-postcss-vs-less-vs-58bf26c379ab
 * material-ui-ts - https://medium.com/react-courses/speed-up-development-integrate-material-ui-v4-11-0-df7968a43fb6
 * react-routing-ts - https://medium.com/react-courses/how-to-integrate-routing-in-typescript-project-with-react-router-v5-2-0-a6b0ab160a1b
+
+<script src="/static/js/bundle.js"></script><script src="/static/js/0.chunk.js"></script><script src="/static/js/main.chunk.js"></script></body>
