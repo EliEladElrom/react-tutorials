@@ -2,7 +2,7 @@
 Author: Eli Elad Elrom
 Website: https://EliElrom.com
 License: MIT License
-Component: Centered.tsx
+Component: src/layout/Centered/Centered.tsx
 */
 
 import * as React from 'react'

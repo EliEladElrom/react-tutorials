@@ -1,3 +1,5 @@
+// src/redux/store.ts
+
 import { configureStore, combineReducers } from '@reduxjs/toolkit'
 import notificationSlice from '../features/Notification/notificationSlice'
 

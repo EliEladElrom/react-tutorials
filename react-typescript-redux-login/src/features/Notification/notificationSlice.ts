@@ -1,4 +1,4 @@
-// src/features/Authentication/notificationSlice.ts
+// src/features/Notification/notificationSlice.ts
 
 import { createSlice } from '@reduxjs/toolkit'
 

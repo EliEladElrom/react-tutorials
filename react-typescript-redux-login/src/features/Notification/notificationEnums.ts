@@ -1,3 +1,5 @@
+// src/features/Notification/notificationEnums.ts
+
 export enum notificationTypesEnums {
   Success = 'Success',
   Fail = 'Fail',

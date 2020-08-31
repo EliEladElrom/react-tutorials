@@ -2,7 +2,7 @@
 Author: Eli Elad Elrom
 Website: https://EliElrom.com
 License: MIT License
-Component: ToastComponent.tsx
+Component: src/components/Toast/ToastComponent.tsx
 */
 
 import React, { useState, useEffect } from 'react'

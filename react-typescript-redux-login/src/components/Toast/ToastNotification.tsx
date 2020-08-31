@@ -2,7 +2,7 @@
 Author: Eli Elad Elrom
 Website: https://EliElrom.com
 License: MIT License
-Component: ToastNotification.tsx
+Component: src/components/Toast/ToastNotification.tsx
 */
 
 import React, { useState } from 'react'

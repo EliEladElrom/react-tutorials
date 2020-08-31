@@ -2,7 +2,7 @@
 Author: Eli Elad Elrom
 Website: https://EliElrom.com
 License: MIT License
-Component: LoginForm.tsx
+Component: src/components/Login/LoginForm.tsx
 */
 
 import * as React from 'react'
