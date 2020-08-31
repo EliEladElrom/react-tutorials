@@ -1,9 +1,8 @@
 import React from 'react'
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import store from './redux/store'
 import LoginPage from './pages/LoginPage/LoginPage'
-import './AppRouter.scss'
 import { ToastNotification } from './components/Toast/ToastNotification'
 
 function AppRouter() {
@@ -12,10 +11,8 @@ function AppRouter() {
       <Provider store={store}>
         <ToastNotification />
         <Switch>
-          <Route exact path="/LoginPage" component={LoginPage} />
+          <Route exact path="/" component={LoginPage} />
         </Switch>
-        <div className="footer">
-        </div>
       </Provider>
     </Router>
   )
