@@ -22,3 +22,4 @@ Table of content
 * material-ui-ts - https://medium.com/react-courses/speed-up-development-integrate-material-ui-v4-11-0-df7968a43fb6
 * react-routing-ts - https://medium.com/react-courses/how-to-integrate-routing-in-typescript-project-with-react-router-v5-2-0-a6b0ab160a1b
 * react-typescript-redux-login - https://medium.com/react-courses/integrate-login-with-toaster-notifications-react-redux-toolkit-typescript-material-ui-tutorial-3e6631f11b05
+* functional-class-components - https://medium.com/react-courses/react-component-types-functional-class-and-exotic-factory-components-for-javascript-1a098a49a831
