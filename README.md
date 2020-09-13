@@ -7,7 +7,7 @@ Many think that learning is the accumulation of knowledge, however it’s probab
 
 If you mastering Angular, I invite you to checkout my angular-tutorials: https://github.com/EliEladElrom/angular-tutorials.
 
-If you struggle with React / React related libraries or have a burning question or an issue in your project that needs help with, I invite you to take my quick survey https://forms.gle/5Va5s9x6NhcWVdn28. I will be giving away a report about the top React libraries you should learn in 2020 that can bust your project and improve your skills and productivity: https://forms.gle/5Va5s9x6NhcWVdn28
+If you struggle with React / React related libraries or have a burning question or an issue in your project that needs help with, I invite you to take my quick survey https://forms.gle/5Va5s9x6NhcWVdn28. I will be giving away a report about the top React libraries you should learn in 2020 that can bust your project and improve your skills and productivity.
 
 Table of content
 ----------------
@@ -23,3 +23,4 @@ Table of content
 * react-routing-ts - https://medium.com/react-courses/how-to-integrate-routing-in-typescript-project-with-react-router-v5-2-0-a6b0ab160a1b
 * react-typescript-redux-login - https://medium.com/react-courses/integrate-login-with-toaster-notifications-react-redux-toolkit-typescript-material-ui-tutorial-3e6631f11b05
 * functional-class-components - https://medium.com/react-courses/react-component-types-functional-class-and-exotic-factory-components-for-javascript-1a098a49a831
+* mern-login - https://medium.com/react-courses/the-mern-stack-login-system-with-mongodb-express-react-w-redux-toolkit-middleware-c274269b64cf?source=friends_link&sk=0cb45daa0d6449677f9cde7649f63a04

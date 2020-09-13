@@ -1,0 +1,10 @@
+{
+  "name": "db-config",
+  "version": "1.0",
+  "environment": {
+    "host":"localhost",
+    "user":"root",
+    "password":"",
+    "dsn": "YourSite"
+  }
+}
