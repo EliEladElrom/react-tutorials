@@ -1,15 +1,14 @@
-// https://recoiljs.org/docs/guides/asynchronous-data-queries
-// dispatch - https://stackoverflow.com/questions/62601155/recoil-js-getting-rid-of-the-suspense-re-rendering-my-app
+// src/pages/BooksPage/BooksPage.tsx
 
 import React, { Suspense } from 'react'
 import { useRecoilState, useRecoilValue } from 'recoil'
 
-import { myBooksQuery } from '../../recoil/selectors/booksSelectors'
+import { getAllBooks } from '../../recoil/selectors/booksSelectors'
 import { currentBookIDState } from '../../recoil/atoms/booksAtoms'
-import CurrentBook from './CurrentBook'
+import BookDetail from './BookDetail'
 
 const BooksPage = () => {
-  const songs: any = useRecoilValue(myBooksQuery)
+  const songs: any = useRecoilValue(getAllBooks)
   const [currentBookID, setCurrentBookID] = useRecoilState(currentBookIDState)
   return (
     <div className="BooksPageMain">
@@ -24,7 +23,7 @@ const BooksPage = () => {
       ))}
       {currentBookID && (
         <Suspense fallback={<span>Loading</span>}>
-          <CurrentBook />
+          <BookDetail />
         </Suspense>
       )}
     </div>

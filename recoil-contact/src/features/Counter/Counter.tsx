@@ -1,4 +1,5 @@
-// https://stackoverflow.com/questions/62860300/using-recoil-js-in-react-in-class-component-without-using-hooks
+// src/features/Counter/Counter.tsx
+
 import * as React from 'react'
 import { useRecoilValue, useSetRecoilState } from 'recoil'
 import { countState } from '../../recoil/atoms/counterAtoms'

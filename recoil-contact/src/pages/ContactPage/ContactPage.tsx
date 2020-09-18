@@ -1,3 +1,5 @@
+// src/pages/ContactPage/ContactPage.tsx
+
 import React from 'react'
 import './ContactPage.scss'
 import { Centered } from '../../layout/Centered'

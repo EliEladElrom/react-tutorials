@@ -1,16 +1,8 @@
+// src/recoil/selectors/booksSelectors.ts
+
 import { selector, selectorFamily } from 'recoil'
-import { getDataBack } from '../../api/books/api'
 import { contactState } from '../atoms/contactAtoms'
 import axios from 'axios'
-
-export const userNameQuery = selectorFamily({
-  key: 'UserName',
-  get: (userID) => async () => {
-    const response = await getDataBack({ userID })
-    console.log('contactSelectors.ts :: userNameQuery :: response :: ' + JSON.stringify(response))
-    return response
-  },
-})
 
 export const sendEmail = selector({
   key: 'searchSelector',

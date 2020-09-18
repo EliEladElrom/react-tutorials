@@ -1,3 +1,5 @@
+// src/api/books/api.js
+
 const booksList = [
     { id: 1, title: 'React v17 - coming soon' },
     { id: 2, title: 'The Blockchain Developer' },
@@ -20,10 +22,5 @@ export const getBooks = async () => new Promise(resolve =>
 
 export const getBookById = async id => new Promise(resolve => {
     const details = booksDetails.find(s => s.id === id);
-    return setTimeout(() => resolve(details), 500);
-});
-
-export const getDataBack = async id => new Promise(resolve => {
-    const details = 'Hello World';
     return setTimeout(() => resolve(details), 500);
 });

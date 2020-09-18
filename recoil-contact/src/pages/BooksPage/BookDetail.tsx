@@ -1,10 +1,12 @@
+// src/pages/BooksPage/BookDetail.tsx
+
 import React from 'react'
 import { useRecoilValue } from 'recoil'
-import { currentBookQuery } from '../../recoil/selectors/booksSelectors'
+import { getBookDetail } from '../../recoil/selectors/booksSelectors'
 import './BooksPage.scss'
 
-const CurrentBook = () => {
-  const currentBook = useRecoilValue(currentBookQuery)
+const BookDetail = () => {
+  const currentBook = useRecoilValue(getBookDetail)
   return currentBook ? (
     <>
       <h2>View Book on Amazon:</h2>
@@ -18,4 +20,4 @@ const CurrentBook = () => {
   ) : null
 }
 
-export default CurrentBook
+export default BookDetail
