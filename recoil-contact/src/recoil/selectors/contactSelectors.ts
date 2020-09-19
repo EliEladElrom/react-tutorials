@@ -5,7 +5,7 @@ import { contactState } from '../atoms/contactAtoms'
 import axios from 'axios'
 
 export const sendEmail = selector({
-  key: 'searchSelector',
+  key: 'sendEmailSelector',
   get: async ({ get }) => {
     const payload = get(contactState)
     try {
