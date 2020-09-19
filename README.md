@@ -24,3 +24,4 @@ Table of content
 * react-typescript-redux-login - https://medium.com/react-courses/integrate-login-with-toaster-notifications-react-redux-toolkit-typescript-material-ui-tutorial-3e6631f11b05
 * functional-class-components - https://medium.com/react-courses/react-component-types-functional-class-and-exotic-factory-components-for-javascript-1a098a49a831
 * mern-login - https://medium.com/react-courses/the-mern-stack-login-system-with-mongodb-express-react-w-redux-toolkit-middleware-c274269b64cf?source=friends_link&sk=0cb45daa0d6449677f9cde7649f63a04
+* recoil-contact - https://medium.com/master-angular/integrate-recoil-with-typescript-to-share-your-state-across-react-components-8cf1a3910fae

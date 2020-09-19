@@ -1,6 +1,6 @@
 // src/recoil/selectors/booksSelectors.ts
 
-import { selector, selectorFamily } from 'recoil'
+import { selector} from 'recoil'
 import { contactState } from '../atoms/contactAtoms'
 import axios from 'axios'
 

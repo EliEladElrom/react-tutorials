@@ -8,12 +8,12 @@ import { currentBookIDState } from '../../recoil/atoms/booksAtoms'
 import BookDetail from './BookDetail'
 
 const BooksPage = () => {
-  const songs: any = useRecoilValue(getAllBooks)
+  const books: any = useRecoilValue(getAllBooks)
   const [currentBookID, setCurrentBookID] = useRecoilState(currentBookIDState)
   return (
     <div className="BooksPageMain">
       <h2>Eli Elad Elrom Technology Books</h2>
-      {songs.map((book: { id: string; title: string }) => (
+      {books.map((book: { id: string; title: string }) => (
         <div key={book.id}>
           <button onClick={() => setCurrentBookID(book.id)}>
             {book.id === currentBookID && '- '}
