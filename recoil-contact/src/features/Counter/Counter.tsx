@@ -20,8 +20,8 @@ class ContactPage extends React.Component<IContactProps, IContactState> {
     return (
       <button
         onClick={() => {
-          const nextToken = this.props.getCount + 1
-          this.props.setCount(nextToken)
+          const newVal = this.props.getCount + 1
+          this.props.setCount(newVal)
         }}
       >
         My count is: {this.props.getCount}
