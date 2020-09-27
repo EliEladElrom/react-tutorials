@@ -1,13 +1,15 @@
 # react-tutorials
 
-Hello and welcome. For your convenience, in this library I included a list of the projects I created in the tutorials and courses to help you master React as well as ReactJS related libraries. I encourage you to create the projects yourself and just use this as a reference.
+Hello and welcome. For your convenience, in this library I included a list of the projects I created in the tutorials and courses to help you 'Master React' as well as ReactJS related libraries. I encourage you to create the projects yourself and just use this as a reference.
 Many think that learning is the accumulation of knowledge, however it’s probably the opposite.  Learning is changing our hobbits.  As Leo Buscaglia nicely put it:
 
 > “Change is the end result of all true learning.” 
 
 If you mastering Angular, I invite you to checkout my angular-tutorials: https://github.com/EliEladElrom/angular-tutorials.
 
-If you struggle with React / React related libraries or have a burning question or an issue in your project that needs help with, I invite you to take my quick survey https://forms.gle/5Va5s9x6NhcWVdn28. I will be giving away a report about the top React libraries you should learn in 2020 that can bust your project and improve your skills and productivity.
+If you struggle or need help with your React / React related libraries project or have a burning question or an issue in your project that needs help with, I invite you to hire me as you coach (https://elielrom.com). My strategy is 100% results-oriented. If you want to sample how I work 1-on-1, let’s schedule a one-time deep dive consultation (https://elielrom.com/CoachingHourly). 
+
+I also put a quick survey https://forms.gle/5Va5s9x6NhcWVdn28 to help understand your needs. I will be giving away a free report about the top React libraries you must learn in 2021 that can bust your productivity and improve your skills.
 
 Table of content
 ----------------
@@ -25,3 +27,4 @@ Table of content
 * functional-class-components - https://medium.com/react-courses/react-component-types-functional-class-and-exotic-factory-components-for-javascript-1a098a49a831
 * mern-login - https://medium.com/react-courses/the-mern-stack-login-system-with-mongodb-express-react-w-redux-toolkit-middleware-c274269b64cf?source=friends_link&sk=0cb45daa0d6449677f9cde7649f63a04
 * recoil-contact - https://medium.com/master-angular/integrate-recoil-with-typescript-to-share-your-state-across-react-components-8cf1a3910fae
+* recoil-testimonials - https://medium.com/react-courses/instantly-code-like-a-ninja-a-testimonials-component-with-react-recoil-in-just-three-easy-steps-c094f8bfead3
