@@ -28,3 +28,4 @@ Table of content
 * mern-login - https://medium.com/react-courses/the-mern-stack-login-system-with-mongodb-express-react-w-redux-toolkit-middleware-c274269b64cf?source=friends_link&sk=0cb45daa0d6449677f9cde7649f63a04
 * recoil-contact - https://medium.com/master-angular/integrate-recoil-with-typescript-to-share-your-state-across-react-components-8cf1a3910fae
 * recoil-testimonials - https://medium.com/react-courses/instantly-code-like-a-ninja-a-testimonials-component-with-react-recoil-in-just-three-easy-steps-c094f8bfead3
+* mailchimp-newsletter - https://medium.com/react-courses/instantly-integrate-a-typescript-custom-newsletter-component-with-react-mailchimp-3dc3ed865fb0
