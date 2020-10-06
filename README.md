@@ -7,9 +7,11 @@ Many think that learning is the accumulation of knowledge, however it’s probab
 
 If you mastering Angular, I invite you to checkout my angular-tutorials: https://github.com/EliEladElrom/angular-tutorials.
 
-If you struggle or need help with your React / React related libraries project or have a burning question or an issue in your project that needs help with, I invite you to hire me as you coach (https://elielrom.com). My strategy is 100% results-oriented. If you want to sample how I work 1-on-1, let’s schedule a one-time deep dive consultation (https://elielrom.com/CoachingHourly). 
+If you struggle or need help with your React / React related libraries project or have a burning question or an issue in your project that needs help with, I invite you to hire me as you coach (https://elielrom.com). My strategy is 100% results-oriented. If you want to sample how I work 1-on-1, let’s schedule a one-time deep dive [consultation](https://elielrom.com/CoachingHourly). 
 
-I also put a quick survey https://forms.gle/5Va5s9x6NhcWVdn28 to help understand your needs. I will be giving away a free report about the top React libraries you must learn in 2021 that can bust your productivity and improve your skills.
+I also put a quick [survey](https://forms.gle/5Va5s9x6NhcWVdn28) to help understand your needs. I will be giving away a free report about the top React libraries you must learn in 2021 that can bust your productivity and improve your skills.
+
+> Note: to download a folder from Github, there are many approached you can take, see [here](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo).  The easiest way is to use [DownGit](https://minhaskamal.github.io/DownGit/#/home) and paste the directory, for instance to download the: [start-project](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2FEliEladElrom%2Freact-tutorials%2Ftree%2Fmaster%2Fstarter-project)
 
 Table of content
 ----------------
