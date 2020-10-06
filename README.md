@@ -11,7 +11,7 @@ If you struggle or need help with your React / React related libraries project o
 
 I also put a quick [survey](https://forms.gle/5Va5s9x6NhcWVdn28) to help understand your needs. I will be giving away a free report about the top React libraries you must learn in 2021 that can bust your productivity and improve your skills.
 
-> Note: to download a folder from Github, there are many approached you can take, see [here](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo).  The easiest way is to use [DownGit](https://minhaskamal.github.io/DownGit/#/home) and paste the directory, for instance to download the: [start-project](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2FEliEladElrom%2Freact-tutorials%2Ftree%2Fmaster%2Fstarter-project)
+> Note: to download a single folder instead of the entire project from Github, there are many approached you can take, see [here](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo).  The easiest way is to use [DownGit](https://minhaskamal.github.io/DownGit/#/home) site and than paste the directory URL, for instance to download the: [start-project](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2FEliEladElrom%2Freact-tutorials%2Ftree%2Fmaster%2Fstarter-project)
 
 Table of content
 ----------------
