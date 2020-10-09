@@ -1,7 +1,48 @@
 {
-  "name": "starter-project",
+  "name": "cra-must-have-libraries",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "author": "Eli Elad Elrom <elad.ny@gmail.com",
+  "engines": {
+    "node": ">=10"
+  },
+  "main": "template.json",
+  "description": "A starter CRA professional React v17 project with must-have ReactJS libraries including TypeScript, SCSS, Redux, Toolkit, Material-UI, Styled Components, React Router, Jest & Enzym, Folder structure, Generate templates, ESLint, Prettier, Recoil",
+  "keywords": [
+    "react",
+    "reactjs",
+    "create-react-app",
+    "cra-template",
+    "template",
+    "SCSS",
+    "TypeScript",
+    "Redux Toolkit",
+    "Recoil",
+    "enzyme",
+    "redux",
+    "react-redux",
+    "Material-UI",
+    "Enzym",
+    "Styled Components",
+    "react-router",
+    "Folder structure",
+    "Generate templates",
+    "react-router-dom",
+    "ESLint",
+    "prettier"
+  ],
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EliEladElrom/cra-template-must-have-libraries",
+    "directory": "/"
+  },
+  "bugs": {
+    "url": "https://github.com/EliEladElrom/cra-template-typescript-redux/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -13,8 +54,8 @@
     "react": "17.0.0-rc.0",
     "react-dom": "17.0.0-rc.0",
     "react-scripts": "3.4.1",
-    "recoil": "^0.0.13",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "recoil": "^0.0.13"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,14 +85,12 @@
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@reduxjs/toolkit": "^1.4.0",
-    "@types/classnames": "^2.2.10",
     "@types/react-redux": "^7.1.9",
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-components": "^5.1.2",
     "@typescript-eslint/eslint-plugin": "^3.8.0",
     "@typescript-eslint/parser": "^3.8.0",
     "babel-eslint": "^10.1.0",
-    "classnames": "^2.2.6",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.3",
     "enzyme-to-json": "^3.5.0",
@@ -70,13 +109,15 @@
     "node-sass": "^4.14.1",
     "prettier-eslint": "^11.0.0",
     "prettier-eslint-cli": "^5.0.0",
-    "prop-types": "^15.7.2",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
     "react-test-renderer": "^16.13.1",
     "redux": "^4.0.5",
     "scss-loader": "^0.0.1",
     "styled-components": "^5.1.1",
-    "typings-for-scss-modules-loader": "^1.5.1"
+    "typings-for-scss-modules-loader": "^1.5.1",
+    "@types/classnames": "^2.2.10",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2"
   }
 }
