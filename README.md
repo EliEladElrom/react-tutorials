@@ -18,6 +18,7 @@ List of projects included in this library:
 - [hello-redux](https://medium.com/react-courses/instance-learn-react-redux-4-redux-toolkit-in-minutes-a-2020-reactjs-16-tutorial-9adaec6f2836)
 - [react-redux-cart](https://medium.com/react-courses/instant-learn-react-redux-toolkit-with-a-simple-minimalistic-example-3c63c296ed65)
 - [hello-jest-enzyme](https://medium.com/@elad.ny/are-you-not-testing-your-react-app-instantly-test-with-jest-enzyme-a-reactjs-2020-tutorial-e9ce0182d66d)
+- [hello-jest-enzyme-ts](https://medium.com/react-courses/unit-testing-react-typescript-app-with-jest-jest-dom-enzyme-11f52487aa18)
 - [ts-clock-app](https://medium.com/react-courses/instant-write-reactjs-typescript-components-complete-beginners-guide-with-a-cheatsheet-e32a76022a44)
 - [hello-preprocessors](https://medium.com/master-angular/ready-to-integrate-or-switch-css-preprocessors-on-react-project-sass-scss-vs-postcss-vs-less-vs-58bf26c379ab)
 - [material-ui-ts](https://medium.com/react-courses/speed-up-development-integrate-material-ui-v4-11-0-df7968a43fb6)
