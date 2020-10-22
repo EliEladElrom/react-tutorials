@@ -93,8 +93,8 @@ export const MAP = {
 }
 
 export default class Calculator
-  extends React.Component<ICalculatorProps, ICalculatorState>
-  implements ICalculator {
+    extends React.Component<ICalculatorProps, ICalculatorState>
+    implements ICalculator {
   constructor(props: ICalculatorProps) {
     super(props)
     this.state = {
@@ -102,7 +102,19 @@ export default class Calculator
       operatorType: '',
       number1: 0,
       number2: -1,
+      LoaderStatus: ''
     }
+  }
+  componentWillMount() {
+    this.startLoader(3000)
+  }
+  startLoader = (seconds: number) => {
+    setTimeout( () => {
+      this.setState({
+        ...this.state,
+        LoaderStatus: 'Loading Complete'
+      })
+    }, seconds)
   }
   startOver = () => {
     this.setState({
@@ -146,9 +158,9 @@ export default class Calculator
       case '=':
         this.setState({
           output: this.calculateTwoNumbers(
-            this.state.number1,
-            Number(this.state.output),
-            this.state.operatorType
+              this.state.number1,
+              Number(this.state.output),
+              this.state.operatorType
           ),
         })
         break
@@ -162,19 +174,22 @@ export default class Calculator
   }
   render() {
     return (
-      <>
+        <>
           <a href="http://twitter.com/elieladelrom" className="follow">
             @elieladelrom
           </a>
           <h1 className="title">
             {this.props.componentTitle} - Version #{this.props.version}
           </h1>
+          <h1 className="subTitle">
+            {this.state.LoaderStatus}
+          </h1>
           <p>
             <button id="btn" onClick={this.startOver}>Start Over</button>
           </p>
           <div className="calculator-output">{this.state.output}</div>
           <ImageMapper src={URL} map={MAP} onClick={(area: any) => { this.clicked(area.name) } } />
-      </>
+        </>
     )
   }
 }
@@ -183,6 +198,7 @@ export interface ICalculator extends React.Component<ICalculatorProps, ICalculat
   startOver?(): void
   calculateTwoNumbers(num1: number, num2: number, operator: string): void
   clicked(area: any): void
+  startLoader(seconds: number): void
 }
 
 interface ICalculatorProps {
@@ -195,4 +211,5 @@ interface ICalculatorState {
   operatorType: string
   number1: number
   number2: number
+  LoaderStatus: string
 }
