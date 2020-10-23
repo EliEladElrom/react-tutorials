@@ -54,6 +54,7 @@
     "recoil": "^0.0.13",
     "redux": "^4.0.5",
     "scss-loader": "^0.0.1",
+    "sinon": "^9.2.0",
     "styled-components": "^5.1.1",
     "typescript": "^3.9.7",
     "typings-for-scss-modules-loader": "^1.5.1"
