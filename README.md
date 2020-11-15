@@ -30,7 +30,7 @@ List of projects included in this library:
 - [recoil-testimonials](https://medium.com/react-courses/instantly-code-like-a-ninja-a-testimonials-component-with-react-recoil-in-just-three-easy-steps-c094f8bfead3)
 - [mailchimp-newsletter](https://medium.com/react-courses/instantly-integrate-a-typescript-custom-newsletter-component-with-react-mailchimp-3dc3ed865fb0)
 - [e2e_ts_testing_with_puppeteer](https://medium.com/react-courses/deliver-quality-software-reduce-qa-load-integrate-end-to-end-e2e-testing-on-cra-react-a20486a39ac2?sk=c9610ea9812363b262f141f1c30ae445)
-- [optimize-ts](https://medium.com/react-courses/optimize-react-app-best-optimzing-techniques-i-wish-i-knew-before-i-wrote-my-first-line-of-code-2b4651f45a48?postPublishedType=initial)
+- [optimize-ts](https://medium.com/react-courses/optimize-react-app-best-optimzing-techniques-i-wish-i-knew-before-i-wrote-my-first-line-of-code-2b4651f45a48)
 
 ## Installation
 
