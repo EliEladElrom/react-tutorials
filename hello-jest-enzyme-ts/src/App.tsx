@@ -1,13 +1,13 @@
-// src/App.js
+// src/App.tsx
 
 import React from 'react'
-import './App.css'
+import './App.scss'
 import Calculator from './components/Calculator/Calculator'
 
 function App() {
   return (
     <div className="App">
-      <Calculator componentTitle={'Online CalculatorJS'} version={'0.01-beta'} />
+      <Calculator componentTitle="Online CalculatorJS" version="0.01-beta" />
     </div>
   )
 }

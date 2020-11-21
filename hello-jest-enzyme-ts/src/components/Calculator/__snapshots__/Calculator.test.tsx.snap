@@ -22,6 +22,7 @@ exports[`\`Calculator Snapshots should render our Snapshots correctly 1`] = `
     <button
       id="btn"
       onClick={[Function]}
+      type="submit"
     >
       Start Over
     </button>

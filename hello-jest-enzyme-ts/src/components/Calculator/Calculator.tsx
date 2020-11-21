@@ -93,8 +93,8 @@ export const MAP = {
 }
 
 export default class Calculator
-    extends React.Component<ICalculatorProps, ICalculatorState>
-    implements ICalculator {
+  extends React.PureComponent<ICalculatorProps, ICalculatorState>
+  implements ICalculator {
   constructor(props: ICalculatorProps) {
     super(props)
     this.state = {
@@ -102,28 +102,38 @@ export default class Calculator
       operatorType: '',
       number1: 0,
       number2: -1,
-      LoaderStatus: ''
+      LoaderStatus: '',
     }
   }
-  componentWillMount() {
+
+  componentDidUpdate() {
     this.startLoader(3000)
   }
+
   startLoader = (seconds: number) => {
-    setTimeout( () => {
-      this.setState({
-        ...this.state,
-        LoaderStatus: 'Loading Complete'
+    setTimeout(() => {
+      this.setState((prevState) => {
+        const newState = 'Loading Complete'
+        return {
+          ...prevState,
+          LoaderStatus: newState,
+        }
       })
     }, seconds)
   }
+
   startOver = () => {
-    this.setState({
-      operatorType: '',
-      number1: 0,
-      number2: -1,
-      output: 0,
+    this.setState((prevState) => {
+      return {
+        ...prevState,
+        operatorType: '',
+        number1: 0,
+        number2: -1,
+        output: 0,
+      }
     })
   }
+
   calculateTwoNumbers = (num1: number, num2: number, operator: string) => {
     let retVal = 0
     switch (operator) {
@@ -140,64 +150,88 @@ export default class Calculator
         retVal = num1 / num2
         break
       default:
+        // eslint-disable-next-line no-alert
         alert('Operator not recognized')
     }
     return retVal
   }
+
   clicked = (btnName: string) => {
     switch (btnName) {
       case '-':
       case '*':
       case '/':
       case '+':
-        this.setState({
-          operatorType: btnName,
-          number1: Number(this.state.output),
+        this.setState((prevState) => {
+          const newState = Number(prevState.output)
+          return {
+            ...prevState,
+            operatorType: btnName,
+            number1: newState,
+          }
         })
         break
       case '=':
-        this.setState({
-          output: this.calculateTwoNumbers(
-              this.state.number1,
-              Number(this.state.output),
-              this.state.operatorType
-          ),
+        this.setState((prevState) => {
+          const newState = this.calculateTwoNumbers(
+            prevState.number1,
+            Number(prevState.output),
+            prevState.operatorType
+          )
+          return {
+            ...prevState,
+            output: newState,
+          }
         })
         break
       default:
-        let isFirstDigitNumber2 = this.state.operatorType && this.state.number2 === -1
-        this.setState({
-          number2: isFirstDigitNumber2 ? 0 : this.state.number2,
-          output: isFirstDigitNumber2 ? Number(btnName) : Number(this.state.output + btnName),
+        this.setState((prevState) => {
+          const isFirstDigitNumber2 = prevState.operatorType && prevState.number2 === -1
+          const newNumberState = isFirstDigitNumber2 ? 0 : prevState.number2
+          const newOutput = isFirstDigitNumber2
+            ? Number(btnName)
+            : Number(prevState.output + btnName)
+          return {
+            ...prevState,
+            number2: newNumberState,
+            output: newOutput,
+          }
         })
     }
   }
+
   render() {
     return (
-        <>
-          <a href="http://twitter.com/elieladelrom" className="follow">
-            @elieladelrom
-          </a>
-          <h1 className="title">
-            {this.props.componentTitle} - Version #{this.props.version}
-          </h1>
-          <h1 className="subTitle">
-            {this.state.LoaderStatus}
-          </h1>
-          <p>
-            <button id="btn" onClick={this.startOver}>Start Over</button>
-          </p>
-          <div className="calculator-output">{this.state.output}</div>
-          <ImageMapper src={URL} map={MAP} onClick={(area: any) => { this.clicked(area.name) } } />
-        </>
+      <>
+        <a href="http://twitter.com/elieladelrom" className="follow">
+          @elieladelrom
+        </a>
+        <h1 className="title">
+          {this.props.componentTitle} - Version #{this.props.version}
+        </h1>
+        <h1 className="subTitle">{this.state.LoaderStatus}</h1>
+        <p>
+          <button type="submit" id="btn" onClick={this.startOver}>
+            Start Over
+          </button>
+        </p>
+        <div className="calculator-output">{this.state.output}</div>
+        <ImageMapper
+          src={URL}
+          map={MAP}
+          onClick={(area: { name: string }) => {
+            this.clicked(area.name)
+          }}
+        />
+      </>
     )
   }
 }
 
-export interface ICalculator extends React.Component<ICalculatorProps, ICalculatorState> {
+export interface ICalculator extends React.PureComponent<ICalculatorProps, ICalculatorState> {
   startOver?(): void
   calculateTwoNumbers(num1: number, num2: number, operator: string): void
-  clicked(area: any): void
+  clicked(btnName: string): void
   startLoader(seconds: number): void
 }
 
