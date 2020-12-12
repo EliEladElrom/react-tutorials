@@ -5,11 +5,9 @@ Many think that learning is the accumulation of knowledge, however it’s probab
 
 > “Change is the end result of all true learning.” 
 
-If you mastering Angular, I invite you to checkout [angular-tutorials](https://github.com/EliEladElrom/angular-tutorials).
+If you want to master Angular, I invite you to checkout [angular-tutorials](https://github.com/EliEladElrom/angular-tutorials).
 
 If you can use help with your React project or have a burning question or an issue in your project that needs help with, I invite you to hire me as your [Coach](https://elielrom.com). My strategy is 100% results-oriented. If you want to sample how I work 1-on-1, let’s schedule a one-time deep dive [Consultation](https://elielrom.com/CoachingHourly). 
-
-I also put a quick [survey](https://forms.gle/5Va5s9x6NhcWVdn28) to help understand your needs. I will be giving away a free report about the top React libraries you must learn in 2021 that can bust your productivity and improve your skills.
 
 List of projects included in this library:
 
@@ -59,7 +57,8 @@ $ yarn start
 
 ## Where to go from here?
 
-Take a [Digital Course](https://www.udemy.com/course/3558877/) that breaks down how to get your starter project with Must-Have libraries.
+Take the [Digital Course](https://www.udemy.com/course/3558877/) that breaks down CRA-MHL template. 
+Additionally, check out [React Router and Material-UI Digital Course](https://www.udemy.com/course/master-react-17-learn-react-router-and-material-ui/).
 - [Take the Digital Course & get a 40 pages React book](https://www.udemy.com/course/3558877/)
 - Check out [React Router and Material-UI Digital Course](https://www.udemy.com/course/master-react-17-learn-react-router-and-material-ui/).
 - [Visit my site EliElrom.com](https://elielrom.com)
@@ -69,4 +68,4 @@ License
 
 MIT
 
-Happy ~~Hacking~~ Coding ✌
+If you like this library, don't be shy to star it 🙏 Happy ~~Hacking~~ Coding ✌
