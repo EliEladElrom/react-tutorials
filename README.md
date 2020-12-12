@@ -31,6 +31,7 @@ List of projects included in this library:
 - [mailchimp-newsletter](https://medium.com/react-courses/instantly-integrate-a-typescript-custom-newsletter-component-with-react-mailchimp-3dc3ed865fb0)
 - [e2e_ts_testing_with_puppeteer](https://medium.com/react-courses/deliver-quality-software-reduce-qa-load-integrate-end-to-end-e2e-testing-on-cra-react-a20486a39ac2?sk=c9610ea9812363b262f141f1c30ae445)
 - [optimize-ts](https://medium.com/react-courses/optimize-react-app-best-optimzing-techniques-i-wish-i-knew-before-i-wrote-my-first-line-of-code-2b4651f45a48)
+- [histogram-d3-ts](https://medium.com/react-courses/create-a-days-price-histogram-chart-react-recoil-d3-typescript-73af3fea316c?sk=9cbbd76daea3244580c84fb58a72ead2)
 
 ## Installation
 
@@ -60,8 +61,7 @@ $ yarn start
 
 Take a [Digital Course](https://www.udemy.com/course/3558877/) that breaks down how to get your starter project with Must-Have libraries.
 - [Take the Digital Course & get a 40 pages React book](https://www.udemy.com/course/3558877/)
-- [View the article on Medium](https://medium.com/react-courses/setting-up-professional-react-project-with-must-have-reactjs-libraries-2020-9358edf9acb3)
-- [Learning React?](https://github.com/EliEladElrom/react-tutorials)
+- Check out [React Router and Material-UI Digital Course](https://www.udemy.com/course/master-react-17-learn-react-router-and-material-ui/).
 - [Visit my site EliElrom.com](https://elielrom.com)
 
 License
