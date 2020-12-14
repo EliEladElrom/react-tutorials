@@ -30,6 +30,7 @@ List of projects included in this library:
 - [e2e_ts_testing_with_puppeteer](https://medium.com/react-courses/deliver-quality-software-reduce-qa-load-integrate-end-to-end-e2e-testing-on-cra-react-a20486a39ac2?sk=c9610ea9812363b262f141f1c30ae445)
 - [optimize-ts](https://medium.com/react-courses/optimize-react-app-best-optimzing-techniques-i-wish-i-knew-before-i-wrote-my-first-line-of-code-2b4651f45a48)
 - [histogram-d3-ts](https://medium.com/react-courses/create-a-days-price-histogram-chart-react-recoil-d3-typescript-73af3fea316c?sk=9cbbd76daea3244580c84fb58a72ead2)
+- [world-chart-ts](https://medium.com/react-courses/showoff-previous-client-list-with-a-world-widget-react-recoil-d3-ts-b8c61bc26562)
 
 ## Installation
 
@@ -57,10 +58,8 @@ $ yarn start
 
 ## Where to go from here?
 
-Take the [Digital Course](https://www.udemy.com/course/3558877/) that breaks down CRA-MHL template. 
-Additionally, check out [React Router and Material-UI Digital Course](https://www.udemy.com/course/master-react-17-learn-react-router-and-material-ui/).
 - [Take the Digital Course & get a 40 pages React book](https://www.udemy.com/course/3558877/)
-- Check out [React Router and Material-UI Digital Course](https://www.udemy.com/course/master-react-17-learn-react-router-and-material-ui/).
+- Check out [React Router and Material-UI Digital Course](https://www.udemy.com/course/master-react-17-learn-react-router-and-material-ui/) & get 35 pages eBook.
 - [Visit my site EliElrom.com](https://elielrom.com)
 
 License

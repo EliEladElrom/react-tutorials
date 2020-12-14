@@ -1,0 +1,75 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": false,
+  "cssPreprocessor": "scss",
+  "testLibrary": "Enzyme",
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "page": {
+      "customTemplates": {
+        "component": "templates/page/component.tsx",
+        "style": "templates/page/style.scss",
+        "test": "templates/page/test.tsx"
+      },
+      "path": "src/pages",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": true
+    },
+    "layout": {
+      "customTemplates": {
+        "component": "templates/component/component.tsx",
+        "style": "templates/component/style.scss",
+        "test": "templates/component/test.tsx"
+      },
+      "path": "src/layout",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": true
+    },
+    "d3": {
+      "customTemplates": {
+        "component": "templates/d3/component.tsx",
+        "style": "templates/component/style.scss",
+        "test": "templates/component/test.tsx"
+      },
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "d3class": {
+      "customTemplates": {
+        "component": "templates/d3class/component.tsx",
+        "style": "templates/component/style.scss",
+        "test": "templates/component/test.tsx"
+      },
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "recoil": {
+      "customTemplates": {
+        "component": "templates/recoil/component.tsx",
+        "style": "templates/component/style.scss",
+        "test": "templates/recoil/test.tsx"
+      },
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    }
+  }
+}
