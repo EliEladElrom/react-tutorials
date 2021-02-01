@@ -34,6 +34,7 @@ List of projects included in this library:
 - [bubble-chart](https://medium.com/react-courses/who-doesnt-like-charts-draw-a-bubble-chart-with-react-d3-typescript-2faf998109e2)
 - [binary-tree-ts](https://medium.com/react-courses/implementing-binary-tree-linked-lists-in-typescript-is-a-must-have-in-your-programming-arsenal-3e6f5599248f)
 - [react-d3-hello-world](https://medium.com/react-courses/first-steps-d3-with-react-typescript-part-i-setting-up-your-first-project-d29802e6f6b3)
+- [basic-charts](https://medium.com/react-courses/drawing-basic-charts-with-react-typescript-d3-part-i-line-area-and-bar-charts-cd159c62e18c)
 
 ## Installation
 
