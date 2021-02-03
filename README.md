@@ -38,7 +38,7 @@ List of projects included in this library:
 
 ## Installation
 
-To download a single folder instead of the entire library from Github, there are many approached you can take, see [here](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo).  The easiest way is to use DownGit sites (find one on Google), then paste the directory URL, for instance to download the: [start-project](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2FEliEladElrom%2Freact-tutorials%2Ftree%2Fmaster%2Fstarter-project)
+To download a single folder instead of the entire library from Github, there are many approached you can take, see [here](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo).  The easiest way is to use DownGit sites (find one on Google), then paste the directory URL, for example to download the: start-project use: [https://github.com/EliEladElrom/react-tutorials/tree/master/starter-project](https://github.com/EliEladElrom/react-tutorials/tree/master/starter-project)
 
 For most of the projects listed here, you can just use my [cra-template-must-have-libraries](https://github.com/EliEladElrom/cra-template-must-have-libraries) project using my starter project as a CRA template;
 ```bash
