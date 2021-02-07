@@ -11,6 +11,7 @@ If you can use help with your React project or have a burning question or an iss
 
 List of projects included in this library:
 
+- [hooks](https://github.com/EliEladElrom/react-tutorials/tree/master/hooks)
 - [hello-world-react](https://medium.com/react-courses/follow-this-tutorial-and-become-a-react-developer-in-5-minutes-a-2020-tutorial-e3709513b51e)
 - [starter-project](https://medium.com/react-courses/setting-up-professional-react-project-with-must-have-reactjs-libraries-2020-9358edf9acb3)
 - [hello-redux](https://medium.com/react-courses/instance-learn-react-redux-4-redux-toolkit-in-minutes-a-2020-reactjs-16-tutorial-9adaec6f2836)
@@ -40,7 +41,7 @@ List of projects included in this library:
 
 To download a single folder instead of the entire library from Github, there are many approached you can take, see [here](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo).  The easiest way is to use DownGit sites (find one on Google), then paste the directory URL, for example to download the: start-project use: [https://github.com/EliEladElrom/react-tutorials/tree/master/starter-project](https://github.com/EliEladElrom/react-tutorials/tree/master/starter-project)
 
-For most of the projects listed here, you can just use my [cra-template-must-have-libraries](https://github.com/EliEladElrom/cra-template-must-have-libraries) project using my starter project as a CRA template;
+For most of theHappy Hacking Coding projects listed here, you can just use my [cra-template-must-have-libraries](https://github.com/EliEladElrom/cra-template-must-have-libraries) project using my starter project as a CRA template;
 ```bash
 npx create-react-app your-project-name --template must-have-libraries
 ```
@@ -71,4 +72,4 @@ License
 
 MIT
 
-If you like this library, don't be shy to star / fork it 🙏 Happy ~~Hacking~~ Coding ✌
+If you like this library, don't be shy to star / fork it 🙏 Keep Learning ✌
