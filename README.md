@@ -31,6 +31,7 @@ List of projects included in this library:
 - [e2e_ts_testing_with_puppeteer](https://medium.com/react-courses/deliver-quality-software-reduce-qa-load-integrate-end-to-end-e2e-testing-on-cra-react-a20486a39ac2?sk=c9610ea9812363b262f141f1c30ae445)
 - [optimize-ts](https://medium.com/react-courses/optimize-react-app-best-optimzing-techniques-i-wish-i-knew-before-i-wrote-my-first-line-of-code-2b4651f45a48)
 - [histogram-d3-ts](https://medium.com/react-courses/create-a-days-price-histogram-chart-react-recoil-d3-typescript-73af3fea316c?sk=9cbbd76daea3244580c84fb58a72ead2)
+- [world-map-chart](https://medium.com/react-courses/world-map-chart-with-react-d3-with-ts-468b05f35404)
 - [world-chart-ts](https://medium.com/react-courses/showoff-previous-client-list-with-a-world-widget-react-recoil-d3-ts-b8c61bc26562)
 - [bubble-chart](https://medium.com/react-courses/who-doesnt-like-charts-draw-a-bubble-chart-with-react-d3-typescript-2faf998109e2)
 - [binary-tree-ts](https://medium.com/react-courses/implementing-binary-tree-linked-lists-in-typescript-is-a-must-have-in-your-programming-arsenal-3e6f5599248f)
