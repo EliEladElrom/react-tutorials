@@ -1,0 +1,25 @@
+.container {
+  background-color: #ffffff;
+}
+
+.node {
+  stroke: #e0b7f6;
+  stroke-width: 1px;
+}
+
+.link {
+  stroke: #cfcccc;
+  stroke-opacity: 1;
+  stroke-width: 1px;
+}
+
+.label {
+  font-size: 13px;
+  fill: #999898;
+}
+
+.linkTextValue {
+  display: block;
+  font-size: 6px;
+  fill: rgba(253, 165, 41, 1);
+}

@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "nodes": [
+        {
+          "name": "JavaScript / TypeScript",
+          "radiusSize": 20,
+          "fillColor": "#fa6502"
+        }
+      ],
+      "links": [
+        {
+          "source": "Erase a character",
+          "target": "JavaScript / TypeScript",
+          "value": "How would you erase a character from a string?"
+        }
+      ]
+    }
+  ]
+}
