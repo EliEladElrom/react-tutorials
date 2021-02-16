@@ -38,6 +38,7 @@ List of projects included in this library:
 - [react-d3-hello-world](https://medium.com/react-courses/first-steps-d3-with-react-typescript-part-i-setting-up-your-first-project-d29802e6f6b3)
 - [basic-charts](https://medium.com/react-courses/drawing-basic-charts-with-react-typescript-d3-part-i-line-area-and-bar-charts-cd159c62e18c)
 - [force-chart](https://elieladelrom.medium.com/easily-show-relationships-draw-simple-force-graph-with-react-d3-utilizing-typescript-d7e9d5326b6)
+- [react-chart-libraries](https://medium.com/react-courses/react-charts-built-on-d3-what-should-you-pick-rechart-visx-niv-react-vi-or-victory-adc64406caa1)
 
 ## Installation
 
