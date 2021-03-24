@@ -7,7 +7,8 @@ Many think that learning is the accumulation of knowledge, however it’s probab
 
 If you want to master Angular, I invite you to checkout [angular-tutorials](https://github.com/EliEladElrom/angular-tutorials).
 
-If you can use help with your React project or have a burning question or an issue in your project that needs help with, I invite you to hire me as your [Coach](https://elielrom.com). My strategy is 100% results-oriented. If you want to sample how I work 1-on-1, let’s schedule a one-time deep dive [Consultation](https://elielrom.com/CoachingHourly). 
+If you can use help with your React project or have a burning question or an issue in your project that needs help with, I invite you to hire me as your [Coach](https://elielrom.com). My strategy is 100% results-oriented. If you want to sample how I work 1-on-1, let’s schedule a one-time deep dive [Consultation](https://elielrom.com/CoachingHourly).
+Additionally, [I will tutor you in react, javascript, typescript, mongodb, node, d3.](https://www.fiverr.com/elieladelrom/tutor-you-in-react-javascript-typescript-mongodb-node-d3) 
 
 List of projects included in this library:
 
@@ -66,6 +67,7 @@ $ yarn start
 
 ## Where to go from here?
 
+- [I will tutor you in react, javascript, typescript, mongodb, node, d3.](https://www.fiverr.com/elieladelrom/tutor-you-in-react-javascript-typescript-mongodb-node-d3)
 - [Take the Digital Course & get a 40 pages React book](https://www.udemy.com/course/3558877/)
 - Check out [React Router and Material-UI Digital Course](https://www.udemy.com/course/master-react-17-learn-react-router-and-material-ui/) & get 35 pages eBook.
 - [Visit my site EliElrom.com](https://elielrom.com)
