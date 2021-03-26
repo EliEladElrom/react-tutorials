@@ -11,13 +11,13 @@ import * as d3 from 'd3'
 import { clientsObject } from '../../model'
 
 export const getPreviousClientListData = selector({
-  key: 'getPreviousClientListData',
+  key: 'GetPreviousClientListData',
   get: async () => {
     return getData()
   },
 })
 
-const getData = async () =>
+const getData = () =>
   new Promise((resolve) =>
     d3
       .dsv(',', '/data/client-list.csv', function results(d) {

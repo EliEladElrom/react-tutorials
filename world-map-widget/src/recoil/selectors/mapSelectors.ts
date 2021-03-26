@@ -11,13 +11,13 @@ import { feature } from 'topojson-client'
 import { setMapObject } from '../../model'
 
 export const getMapData = selector({
-  key: 'getMapData',
+  key: 'GetMapData',
   get: async () => {
     return getMapDataFromFile()
   },
 })
 
-const getMapDataFromFile = async () =>
+const getMapDataFromFile = () =>
   new Promise((resolve) =>
     fetch('/data/world-110m.json').then((response) => {
       if (response.status !== 200) {
