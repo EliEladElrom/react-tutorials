@@ -45,7 +45,7 @@ List of projects included in this library:
 
 To download a single folder instead of the entire library from Github, there are many approached you can take, see [here](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo).  The easiest way is to use DownGit sites (find one on Google), then paste the directory URL, for example to download the: start-project use: [https://github.com/EliEladElrom/react-tutorials/tree/master/starter-project](https://github.com/EliEladElrom/react-tutorials/tree/master/starter-project)
 
-For most of theHappy Hacking Coding projects listed here, you can just use my [cra-template-must-have-libraries](https://github.com/EliEladElrom/cra-template-must-have-libraries) project using my starter project as a CRA template;
+For most of the projects listed here, you can just use my [cra-template-must-have-libraries](https://github.com/EliEladElrom/cra-template-must-have-libraries) project using my starter project as a CRA template;
 ```bash
 npx create-react-app your-project-name --template must-have-libraries
 ```
@@ -67,7 +67,7 @@ $ yarn start
 
 ## Where to go from here?
 
-- [I will tutor you in react, javascript, typescript, mongodb, node, d3.](https://www.fiverr.com/elieladelrom/tutor-you-in-react-javascript-typescript-mongodb-node-d3)
+- [I will help you with coding, tutor you in react, javascript, typescript, mongodb, node, d3.](https://www.fiverr.com/elieladelrom/tutor-you-in-react-javascript-typescript-mongodb-node-d3)
 - [Take the Digital Course & get a 40 pages React book](https://www.udemy.com/course/3558877/)
 - Check out [React Router and Material-UI Digital Course](https://www.udemy.com/course/master-react-17-learn-react-router-and-material-ui/) & get 35 pages eBook.
 - [Visit my site EliElrom.com](https://elielrom.com)
