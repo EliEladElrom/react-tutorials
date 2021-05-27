@@ -7,9 +7,6 @@ Many think that learning is the accumulation of knowledge, however it’s probab
 
 If you want to master Angular, I invite you to checkout [angular-tutorials](https://github.com/EliEladElrom/angular-tutorials).
 
-If you can use help with your React project or have a burning question or an issue in your project that needs help with, I invite you to hire me as your [Coach](https://elielrom.com). My strategy is 100% results-oriented. If you want to sample how I work 1-on-1, let’s schedule a one-time deep dive [Consultation](https://elielrom.com/CoachingHourly).
-Additionally, [I will tutor you in react, javascript, typescript, mongodb, node, d3.](https://www.fiverr.com/elieladelrom/tutor-you-in-react-javascript-typescript-mongodb-node-d3) 
-
 List of projects included in this library:
 
 - [hooks](https://github.com/EliEladElrom/react-tutorials/tree/master/hooks)
@@ -40,6 +37,7 @@ List of projects included in this library:
 - [basic-charts](https://medium.com/react-courses/drawing-basic-charts-with-react-typescript-d3-part-i-line-area-and-bar-charts-cd159c62e18c)
 - [force-chart](https://elieladelrom.medium.com/easily-show-relationships-draw-simple-force-graph-with-react-d3-utilizing-typescript-d7e9d5326b6)
 - [react-chart-libraries](https://medium.com/react-courses/react-charts-built-on-d3-what-should-you-pick-rechart-visx-niv-react-vi-or-victory-adc64406caa1)
+- [area-chart-with-brush](https://medium.com/react-courses/create-an-area-chart-with-brush-tool-using-react-d3-c6dfc934a67b)
 
 ## Installation
 
@@ -65,11 +63,14 @@ $ yarn install
 $ yarn start
 ```
 
+If you can use help with your React project or have a burning question, or an issue in your project that needs help with, I invite you to hire me as your [Coach](https://elielrom.com). My strategy is 100% results-oriented. If you want to sample how I work 1-on-1, let’s schedule a one-time deep dive [Consultation](https://elielrom.com/CoachingHourly).
+Additionally, [I will tutor you in react, javascript, typescript, mongodb, node, d3.](https://www.fiverr.com/elieladelrom/tutor-you-in-react-javascript-typescript-mongodb-node-d3) 
+
 ## Where to go from here?
 
-- [I will help you with coding, tutor you in react, javascript, typescript, mongodb, node, d3.](https://www.fiverr.com/elieladelrom/tutor-you-in-react-javascript-typescript-mongodb-node-d3)
+- [Take the interactive d3 and React Course](https://www.udemy.com/instructor/course/4035148/)
 - [Take the Digital Course & get a 40 pages React book](https://www.udemy.com/course/3558877/)
-- Check out [React Router and Material-UI Digital Course](https://www.udemy.com/course/master-react-17-learn-react-router-and-material-ui/) & get 35 pages eBook.
+- [Check out React Router and Material-UI Digital Course](https://www.udemy.com/course/master-react-17-learn-react-router-and-material-ui/) & get 35 pages eBook.
 - [Visit my site EliElrom.com](https://elielrom.com)
 
 License
@@ -77,4 +78,4 @@ License
 
 MIT
 
-If you like this library, don't be shy to star / fork it 🙏 Keep Learning ✌
+If you like this library, don't be shy to star / fork it 🙏

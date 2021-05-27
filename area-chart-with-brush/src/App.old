@@ -1,0 +1,79 @@
+/*
+Author: Eli Elad Elrom
+Website: https://EliElrom.com
+License: MIT License
+Component: src/App.tsx
+*/
+
+import React, { useEffect, useState } from 'react'
+import './App.scss'
+
+import * as d3 from 'd3'
+import AreaChartBrush from './components/AreaChartBrush/AreaChartBrush'
+import BasicAreaChart from './components/BasicAreaChart/BasicAreaChart'
+import { Types } from './components/AreaChartBrush/types'
+
+function App() {
+  const [loadingComplete, setLoadingComplete] = useState<Boolean>(false)
+  const [data, setData] = useState<{ date: Date | null; value: number }[]>([{ date: null, value: 0 }])
+  const [brushedData, setBrushedData] = useState<{ date: Date | null; value: number }[]>([{ date: null, value: 0 }])
+
+  useEffect(() => {
+    if (!loadingComplete) {
+      setLoadingComplete(true)
+      d3.dsv(',', '/Data/area.csv', (d) => {
+        const res = (d as unknown) as Types.Data
+        const date = d3.timeParse('%Y-%m-%d')(res.date)
+        return {
+          date,
+          value: res.value,
+        }
+      }).then(function results(d) {
+        if (d.length > 1) {
+          setData((d as unknown) as { date: Date | null; value: number }[])
+        }
+      })
+    }
+  }, [loadingComplete])
+
+  const onBrushUpdateData = (values: Date[]) => {
+    // console.log(`${values[0].toDateString()  }, ${  values[1].toDateString()}`)
+    let newData
+    // eslint-disable-next-line prefer-const
+    newData = []
+    for (let i = 0; i < data.length; i++) {
+      const check = data[i].date as Date
+      if (check >= values[0] && check <= values[1]) {
+        newData.push(data[i])
+      }
+    }
+    // eslint-disable-next-line no-console
+    if (newData[0].date !== brushedData[0].date) {
+      // console.log(`newData: ${  newData.length}`)
+      setBrushedData(newData)
+    }
+  }
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <BasicAreaChart data={brushedData} top={10} right={50} bottom={50} left={50} width={1000} height={400} fill="rgb(130, 150, 150)" stroke="rgb(198, 216, 205)" />
+        <AreaChartBrush
+          data={data}
+          onBrushUpdateData={onBrushUpdateData}
+          top={10}
+          right={50}
+          bottom={50}
+          left={50}
+          width={1000}
+          height={400}
+          focusHeight={100}
+          fill="rgb(130, 150, 150)"
+          stroke="rgb(47, 74, 89)"
+        />
+      </header>
+    </div>
+  )
+}
+
+export default App
