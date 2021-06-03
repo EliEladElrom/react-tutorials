@@ -1,0 +1,38 @@
+Recoil selectors goes here, example: articlesSelectors.ts, see here:
+https://medium.com/react-courses/instantly-retrieve-mediums-articles-with-react-recoil-in-three-easy-steps-1298a464dd3c
+
+/*
+Author: Eli Elad Elrom
+Website: https://EliElrom.com
+License: MIT License
+File: src/model/articlesSelectors.ts
+*/
+
+import { selector } from 'recoil'
+import axios from 'axios' // yarn add axios @types/axios
+
+export const getArticlesFromMediumByUser = selector({
+  key: 'getArticlesFromMediumByUser',
+  get: async ({ get }) => {
+    try {
+      const URL = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@elad.ny'
+      const res = await axios({
+        url: URL,
+        method: 'get',
+      })
+      console.log(
+        `articlesSelectors.ts :: getUserBlogPosts :: results: ${JSON.stringify(res.data.items)}`
+      )
+      return res.data.items
+    } catch (err) {
+      console.log('articlesSelectors.ts :: getUserBlogPosts :: ERRORS')
+      console.warn(err)
+      return `Error: ${err}`
+    }
+  },
+})
+
+On the implementation side, you can retrieve;
+import { useRecoilValue } from 'recoil'
+import { getArticlesFromMediumByUser } from '../../recoil/selectors/articlesSelectors'
+const articles = useRecoilValue(getArticlesFromMediumByUser)
