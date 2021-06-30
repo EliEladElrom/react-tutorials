@@ -40,6 +40,7 @@ List of projects included in this library:
 - [area-chart-with-brush](https://medium.com/react-courses/create-an-area-chart-with-brush-tool-using-react-d3-c6dfc934a67b)
 - [word-cloud](https://medium.com/p/969c63506856/)
 - [donut-chart](https://medium.com/p/2d23b8ffb108/)
+- [bisector](https://medium.com/p/e023ce7697c0/)
 
 ## Installation
 
