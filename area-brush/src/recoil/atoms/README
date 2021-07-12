@@ -1,0 +1,25 @@
+Recoil atoms goes here, example: userAtoms.ts;
+
+/*
+Author: Eli Elad Elrom
+Website: https://EliElrom.com
+License: MIT License
+File: src/recoil/atoms/userAtoms.ts
+*/
+
+import { atom } from 'recoil'
+import { initUser } from '../../model'
+
+export const userState = atom({
+  key: 'UserState',
+  default: initUser(),
+})
+
+Implement set & use;
+const setUserState = useSetRecoilState(userState)
+const user = useRecoilValue(userState)
+Or setter & getter at the same time;
+const [user, setUser] = useRecoilState(userState)
+
+You can even use in local state:
+const [user, setUser] = React.useState<userObject>(initUser)
