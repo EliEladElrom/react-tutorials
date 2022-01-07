@@ -1,0 +1,651 @@
+{
+  "status": "success",
+  "results": [
+    {
+      "nodes": [
+        {
+          "id": "JavaScript / TypeScript",
+          "radiusSize": 20,
+          "fillColor": "#fa6502"
+        },
+        {
+          "id": "Erase a character",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Palindrome",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Convert a string",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Maximum characters",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Repeating character",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Words in a sentence",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Find duplicate characters",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Check duplicate characters",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Find missing value",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Find numbers in an array",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Find missing number",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Reverse an array.",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Find duplicate numbers",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Remove duplicates",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Convert a byte array",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Sort array",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Bubble sort",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Insertion sort",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Merge sort",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Quicksort",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Term search",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Binary search",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Binary tree",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Binary tree search",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Preorder",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Inorder",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Postorder",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "LinkedList",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "convert Binary Tree to LinkedList",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "React Core",
+          "radiusSize": 20,
+          "fillColor": "#fa6502"
+        },
+        {
+          "id": "React vs. Angular",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "React’s main advantages",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "React’s main limitations",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "DOM vs. VDOM?",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "JSX",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "ES6 vs. ES5?",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Toolchain",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Automation tools",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "JSX comments",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Everything is a component",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Functional and class components",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Embed multiple child components",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Hooks",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "StrictMode",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "States vs props",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Arrow functions",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Bind methods",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Component lifecycle",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Actions",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Updating state",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "HOCs",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Modularize",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Mixins",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Keys",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Refs",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Prop drilling",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Shallow vs Mount vs Render",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Styling",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Stateful vs stateless",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Controlled vs uncontrolled",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Synthetic events",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Forms",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "Slow React App",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        },
+        {
+          "id": "React vs React Native",
+          "radiusSize": 5,
+          "fillColor": "#e5c3ac"
+        }
+      ],
+      "links": [
+        {
+          "source": "Erase a character",
+          "target": "JavaScript / TypeScript",
+          "value": "How would you erase a character from a string?"
+        },
+        {
+          "source": "Palindrome",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code that will perform a palindrome check."
+        },
+        {
+          "source": "Convert a string",
+          "target": "JavaScript / TypeScript",
+          "value": "How would you convert a string to a inter, float and number type?"
+        },
+        {
+          "source": "Maximum characters",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code that finds out the maximum occurring character in a given string."
+        },
+        {
+          "source": "Repeating character",
+          "target": "JavaScript / TypeScript",
+          "value": "First repeating character in a string"
+        },
+        {
+          "source": "Words in a sentence",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to find all the words in a sentence."
+        },
+        {
+          "source": "Find duplicate characters",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to find duplicate characters in a string"
+        },
+        {
+          "source": "Check duplicate characters",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to check duplicate characters in a string"
+        },
+        {
+          "source": "Find missing value",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to find missing value in an integer array."
+        },
+        {
+          "source": "Find numbers in an array",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to find the largest and smallest number in an array"
+        },
+        {
+          "source": "Find missing number",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to find a missing number in an array."
+        },
+        {
+          "source": "Reverse an array.",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to reverse an array."
+        },
+        {
+          "source": "Find duplicate numbers",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to find duplicate numbers in an array."
+        },
+        {
+          "source": "Remove duplicates",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to remove duplicates numbers from an array."
+        },
+        {
+          "source": "Convert a byte array",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to convert a byte array into a string."
+        },
+        {
+          "source": "Sort array",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to sort through an array."
+        },
+        {
+          "source": "Bubble sort",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to do a bubble sort."
+        },
+        {
+          "source": "Insertion sort",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to do insertion sort."
+        },
+        {
+          "source": "Merge sort",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to do a merge sort."
+        },
+        {
+          "source": "Quicksort",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to do an iterative quicksort."
+        },
+        {
+          "source": "Term search",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to do a term search."
+        },
+        {
+          "source": "Binary search",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to a binary search."
+        },
+        {
+          "source": "Binary tree",
+          "target": "JavaScript / TypeScript",
+          "value": "Explain what is a binary tree?"
+        },
+        {
+          "source": "Binary tree search",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to do a binary tree search to find if a node is contained as well as the min and max node value."
+        },
+        {
+          "source": "Preorder",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to do a preorder binary search."
+        },
+        {
+          "source": "Inorder",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to do an Inorder binary search."
+        },
+        {
+          "source": "Postorder",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to do a Postorder binary search."
+        },
+        {
+          "source": "LinkedList",
+          "target": "JavaScript / TypeScript",
+          "value": "Part I: What is a LinkedList and when should you use it? Part II: write a LinkedList code using TS."
+        },
+        {
+          "source": "convert Binary Tree to LinkedList",
+          "target": "JavaScript / TypeScript",
+          "value": "Write code to convert Binary Tree to LinkedList."
+        },
+        {
+          "source": "React vs. Angular",
+          "target": "React Core",
+          "value": "What’s the different between React and Angular, which one is better?"
+        },
+        {
+          "source": "React’s main advantages",
+          "target": "React Core",
+          "value": "Name some  of React’s main advantages?"
+        },
+        {
+          "source": "React’s main limitations",
+          "target": "React Core",
+          "value": "Name some of React’s main limitations?"
+        },
+        {
+          "source": "DOM vs. VDOM?",
+          "target": "React Core",
+          "value": "What is the difference between the DOM and VDOM?"
+        },
+        {
+          "source": "JSX",
+          "target": "React Core",
+          "value": "What is JSX?"
+        },
+        {
+          "source": "ES6 vs. ES5?",
+          "target": "React Core",
+          "value": "What is the difference between ES6 and ES5?"
+        },
+        {
+          "source": "Toolchain",
+          "target": "React Core",
+          "value": "What are the primary pillars in the JavaScript toolchain?"
+        },
+        {
+          "source": "Automation tools",
+          "target": "React Core",
+          "value": "What automation tools can be used to identify issues in a React App?"
+        },
+        {
+          "source": "JSX comments",
+          "target": "React Core",
+          "value": "How can you add comments in JSX?"
+        },
+        {
+          "source": "Everything is a component",
+          "target": "React Core",
+          "value": "What do you understand if I say: in React - everything is a component?"
+        },
+        {
+          "source": "Functional and class components",
+          "target": "React Core",
+          "value": "What is the difference between functional and class components?"
+        },
+        {
+          "source": "Embed multiple child components",
+          "target": "React Core",
+          "value": "How can I embed multiple child components into a parent?"
+        },
+        {
+          "source": "Hooks",
+          "target": "React Core",
+          "value": "Write a function component with hooks."
+        },
+        {
+          "source": "StrictMode",
+          "target": "React Core",
+          "value": "What is React component StrictMode?"
+        },
+        {
+          "source": "States vs props",
+          "target": "React Core",
+          "value": "What is the difference between states and props?"
+        },
+        {
+          "source": "Arrow functions",
+          "target": "React Core",
+          "value": "What are arrow functions in React (aka fat arrow)?"
+        },
+        {
+          "source": "Bind methods",
+          "target": "React Core",
+          "value": "Why would you need to bind methods and how can you avoid that?"
+        },
+        {
+          "source": "Component lifecycle",
+          "target": "React Core",
+          "value": "Explain the React component lifecycle.  What changed between React v16 to v17?"
+        },
+        {
+          "source": "Actions",
+          "target": "React Core",
+          "value": "How can I perform an action only once when the UI render in Class and Function components?"
+        },
+        {
+          "source": "Updating state",
+          "target": "React Core",
+          "value": "How would you go about updating the state in class vs function component?"
+        },
+        {
+          "source": "HOCs",
+          "target": "React Core",
+          "value": "What is Higher-Order Components (HOCs)?"
+        },
+        {
+          "source": "Modularize",
+          "target": "React Core",
+          "value": "How can I modularize a component with lazy load?"
+        },
+        {
+          "source": "Mixins",
+          "target": "React Core",
+          "value": "What is React Mixins?"
+        },
+        {
+          "source": "Keys",
+          "target": "React Core",
+          "value": "What’s the importance of keys in React?"
+        },
+        {
+          "source": "Refs",
+          "target": "React Core",
+          "value": "What are React Refs and when should I use them?"
+        },
+        {
+          "source": "Prop drilling",
+          "target": "React Core",
+          "value": "What is prop drilling and should I avoid them?"
+        },
+        {
+          "source": "Shallow vs Mount vs Render",
+          "target": "React Core",
+          "value": "What is difference between unit testing Shallow vs Mount vs Render?"
+        },
+        {
+          "source": "Styling",
+          "target": "React Core",
+          "value": "What are my options when it comes to styling a react App?"
+        },
+        {
+          "source": "Stateful vs stateless",
+          "target": "React Core",
+          "value": "What’s the difference between stateful vs stateless components?"
+        },
+        {
+          "source": "Controlled vs uncontrolled",
+          "target": "React Core",
+          "value": "What is the difference between controlled vs uncontrolled components?"
+        },
+        {
+          "source": "Synthetic events",
+          "target": "React Core",
+          "value": "Part I: What is difference between DOM events vs React events? Part II: What are synthetic events in React?"
+        },
+        {
+          "source": "Forms",
+          "target": "React Core",
+          "value": "What is unique about React forms vs HTML forms?"
+        },
+        {
+          "source": "Slow React App",
+          "target": "React Core",
+          "value": "What would do if your React App is slow?"
+        },
+        {
+          "source": "React vs React Native",
+          "target": "React Core",
+          "value": "What’s the difference between React and React Native?"
+        }
+      ]
+    }
+  ]
+}

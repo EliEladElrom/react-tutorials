@@ -1,11 +1,6 @@
 # React Tutorials
 
-Hello and welcome. In this library I included a list of projects I created in the tutorials and courses to help you **Master React** as well as ReactJS related libraries. I encourage you to create the projects yourself and just use this as a reference.
-Many think that learning is the accumulation of knowledge, however it’s probably the opposite.  Learning is changing our hobbits.  As Leo Buscaglia nicely put it:
-
-> “Change is the end result of all true learning.” 
-
-If you want to master Angular, I invite you to checkout [angular-tutorials](https://github.com/EliEladElrom/angular-tutorials).
+Hello and welcome. In this library I included a list of projects I created in the tutorials to help you **Master React** as well as ReactJS related libraries. 
 
 List of projects included in this library:
 
@@ -42,29 +37,16 @@ List of projects included in this library:
 - [word-cloud](https://medium.com/p/969c63506856/)
 - [donut-chart](https://medium.com/p/2d23b8ffb108/)
 - [bisector](https://medium.com/p/e023ce7697c0/)
+- [3d-force-chart](https://medium.com/p/b7fcf9e39f83)
 
 ## Installation
 
 To download a single folder instead of the entire library from Github, there are many approached you can take, see [here](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo).  The easiest way is to use DownGit sites (find one on Google), then paste the directory URL, for example to download the: start-project use: [https://github.com/EliEladElrom/react-tutorials/tree/master/starter-project](https://github.com/EliEladElrom/react-tutorials/tree/master/starter-project)
 
-For most of the projects listed here, you can just use my [cra-template-must-have-libraries](https://github.com/EliEladElrom/cra-template-must-have-libraries) project using my starter project as a CRA template;
-```bash
-npx create-react-app your-project-name --template must-have-libraries
-```
-
-Or yarn;
-
-```bash
-yarn create react-app your-project-name --template must-have-libraries
-```
-
 ## Start The Project
-
-To start any CRA based project from the list of projects, download the project, than install the dependencies and lastly, start the local server;
 
 ```bash
 $ yarn install
-$ yarn start
 ```
 
 If you can use help with your React project or have a burning question, or an issue in your project that needs help with, I invite you to hire me as your [Coach](https://elielrom.com). My strategy is 100% results-oriented. If you want to sample how I work 1-on-1, let’s schedule a one-time deep dive [Consultation](https://elielrom.com/CoachingHourly).
@@ -74,7 +56,6 @@ Additionally, [I will tutor you in react, javascript, typescript, mongodb, node,
 
 - [Take the interactive d3 and React Course](https://www.udemy.com/course/integrating-d3js-with-react/?referralCode=4C1ADE35AB8633B90205)
 - [Take the Digital Course & get a 40 pages React book](https://www.udemy.com/course/getting-started-react17-with-must-have-libraries/?referralCode=3E6A9B9D8EBB48A913A9)
-- [Check out React Router and Material-UI Digital Course](https://www.udemy.com/course/master-react-17-learn-react-router-and-material-ui/?referralCode=9CB1AF4FA99DA9ADF0F4) & get 35 pages eBook.
 - [View the article on Medium](https://medium.com/react-courses/setting-up-professional-react-project-with-must-have-reactjs-libraries-2020-9358edf9acb3)
 - [Visit my site EliElrom.com](https://elielrom.com)
 
