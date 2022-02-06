@@ -38,6 +38,7 @@ List of projects included in this library:
 - [donut-chart](https://medium.com/p/2d23b8ffb108/)
 - [bisector](https://medium.com/p/e023ce7697c0/)
 - [3d-force-chart](https://medium.com/p/b7fcf9e39f83)
+- [save-png-jpg-pdf](https://medium.com/p/bdd626184693)
 
 ## Installation
 
