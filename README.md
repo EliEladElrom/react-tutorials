@@ -39,6 +39,7 @@ List of projects included in this library:
 - [bisector](https://medium.com/p/e023ce7697c0/)
 - [3d-force-chart](https://medium.com/p/b7fcf9e39f83)
 - [save-png-jpg-pdf](https://medium.com/p/bdd626184693)
+- [ecr-ecs-github-ci-cd](https://medium.com/p/698d360ee21e)
 
 ## Installation
 
